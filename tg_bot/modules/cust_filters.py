@@ -305,7 +305,7 @@ If you wish to add more than 1 buttons simply do the following:
 The `:same` end of the link merges 2 buttons on same line as 1 button, resulting in 3 button to be separated from same line.
 """
 
-__mod_name__ = "📑FILTERS"
+__mod_name__ = "🗃FILTERS"
 
 FILTER_HANDLER = CommandHandler("filter", filters)
 STOP_HANDLER = CommandHandler("stop", stop_filter)
