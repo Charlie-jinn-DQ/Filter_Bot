@@ -18,13 +18,24 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█ █░░╦─╦╔╗╦─╔╗╔╗╔╦╗╔╗░░█ █░░║║║╠─║─║─║║║║║╠─░░█ █░░╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝░░█ █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+ ┈╭━━━━━━━━━━━╮┈
+ ┈┃╭━━━╮┊╭━━━╮┃┈
+ ╭┫┃┈▇┈┃┊┃┈▇┈┃┣╮
+ ┃┃╰━━━╯┊╰━━━╯┃┃
+ ╰┫╭━╮╰━━━╯╭━╮┣╯
+ ┈┃┃┣┳┳┳┳┳┳┳┫┃┃┈
+ ┈┃┃╰┻┻┻┻┻┻┻╯┃┃┈
+ ┈╰━━━━━━━━━━━╯┈
+╦─╦╔╗╦─╔╗╔╗╔╦╗╔╗
+║║║╠─║─║─║║║║║╠─
+╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝
 
 *Hello* {},*My Name is* *{}*! 
 
-```You You Can Add any kind of Filters to This Bot!```
+Am a powerful *Filter Bot* in Telegram.
+Developed by this *[Legend](tg://user?id={})*
 
-*Channel:© @DX_Botz*
+```You Can Add any kind of Filters with This Bot!```
 
 /help for more details..
 """
