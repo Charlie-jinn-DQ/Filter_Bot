@@ -269,17 +269,43 @@ def __chat_settings__(chat_id, user_id):
 
 
 __help__ = """
+Make your chat more lively with filters; This Bot will reply to certain words!
+
+Filters are case insensitive; every time someone says your trigger words, This Bot will reply something else! can be used to create your own commands, if desired.
+
  - /filters: list all active filters in this chat.
 
-*Admin only:*
- - /filter <keyword> <reply message>: add a filter to this chat. The bot will now reply that message whenever 'keyword'\
-is mentioned. If you reply to a sticker with a keyword, the bot will reply with that sticker. NOTE: all filter \
-keywords are in lowercase. If you want your keyword to be a sentence, use quotes. eg: /filter "hey there" How you \
-doin?
+Admin only:
+ - /filter <keyword> <reply message>: Every time someone says "word", the bot will reply with "sentence". For multiple word filters, quote the first word.
  - /stop <filter keyword>: stop that filter.
+ - /stopall: deletes all filters in the chat. - chat creator only
+ 
+ An example of how to set a filter would be via:
+`/filter hello Hello there! How are you?`
+
+A multiword filter could be set via:
+`/filter "hello friend" Hello back! Long time no see!`
+
+If you want to save an image, gif, or sticker, or any other data, do the following:
+`/filter word while replying to a sticker or whatever data you'd like. Now, every time someone mentions "word", that sticker will be sent as a reply.`
+
+Now, anyone saying "hello" will be replied to with "Hello there! How are you?".
+
+Having buttons in filters are cool, everyone hates URLs visible. With button links you can make your chats look more tidy and simplified.
+
+Here is an example of using buttons:
+You can create a button using
+`[Name of button text](buttonurl://example.com)`.
+
+If you wish to add more than 1 buttons simply do the following:
+`[Button 1](buttonurl://example.com)`
+`[Button 2](buttonurl://telegram.com:same)`
+`[Button 3](buttonurl://google.com)`
+
+The `:same` end of the link merges 2 buttons on same line as 1 button, resulting in 3 button to be separated from same line.
 """
 
-__mod_name__ = "📑FILTERS📑"
+__mod_name__ = "📑FILTERS"
 
 FILTER_HANDLER = CommandHandler("filter", filters)
 STOP_HANDLER = CommandHandler("stop", stop_filter)
