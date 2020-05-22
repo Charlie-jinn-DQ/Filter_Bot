@@ -18,7 +18,7 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
- ┈╭━━━━━━━━━━━╮┈
+™┈╭━━━━━━━━━━━╮┈
  ┈┃╭━━━╮┊╭━━━╮┃┈
  ╭┫┃┈▇┈┃┊┃┈▇┈┃┣╮
  ┃┃╰━━━╯┊╰━━━╯┃┃
@@ -33,7 +33,7 @@ PM_START_TEXT = """
 *Hello* {},*My Name is* *{}*! 
 
 Am a powerful *Filter Bot* in Telegram.
-Developed by this *[Legend](http://t.me/Charlie_jin)*
+Developed by this [Legend](@Charlie_jin)
 
 ```You Can Add any kind of Filters with This Bot!```
 
