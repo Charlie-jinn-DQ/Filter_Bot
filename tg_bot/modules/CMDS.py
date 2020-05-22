@@ -34,11 +34,12 @@ def post_telegraph(bot: Bot, update: Update, args: List[str]):
 
 __help__ = """
 ○ My Name : *Filter Bot*
-○ Creator : [ജിന്ന്\" DQishtam](http://telegram.dog/Charlie_jin)
+○ Creator : [This Mahn](tg://user?id={})
 ○ Credits : `Everyone in this journey`
 ○ Language : Python3
 ○ Library : [Pyrogram asyncio 0.16.1](https://docs.pyrogram.org/)
-○ Source Code : 👉 [Click Here](https://github.com/Ashkar2001)
+○ Developed by : [ജിന്ന്\" DQishtam](http://telegram.dog/Charlie_jin)
+○ Source Code : 👉 [Click Here](https://github.com/Ashkar2001/filter_bot)
 ○ Server : Heroku
 ○ Build Status : V4 `[+0.4]`
 """
