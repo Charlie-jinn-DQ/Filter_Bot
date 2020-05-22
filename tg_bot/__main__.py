@@ -30,10 +30,10 @@ PM_START_TEXT = """
 ║║║╠─║─║─║║║║║╠─
 ╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝
 
-*Hello* {},*My Name is* *{}*! 
+*Hello* *{}*,*My Name is* *{}*! 
 
 Am a powerful *Filter Bot* in Telegram.
-Developed by this [Legend](@Charlie_jin)
+Developed by this [Legend](@Charlie_jin).
 
 ```You Can Add any kind of Filters with This Bot!```
 
