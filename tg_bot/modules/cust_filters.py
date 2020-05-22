@@ -275,11 +275,12 @@ Filters are case insensitive; every time someone says your trigger words, This B
 
  - /filters: list all active filters in this chat.
 
-Admin only:
+*Admin only:*
  - /filter <keyword> <reply message>: Every time someone says "word", the bot will reply with "sentence". For multiple word filters, quote the first word.
  - /stop <filter keyword>: stop that filter.
  - /stopall: deletes all filters in the chat. - chat creator only
  
+*Examples:*
  An example of how to set a filter would be via:
 `/filter hello Hello there! How are you?`
 
