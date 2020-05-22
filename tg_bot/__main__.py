@@ -35,7 +35,7 @@ PM_START_TEXT = """
 Am a powerful *Filter Bot* in Telegram.
 Developed by this [Legend](tg://user?id={}).
 
-```You Can Add any kind of Filters with This Bot!```
+```Y You Can Add any kind of Filters with This Bot!```
 
 /help for more details..
 """
